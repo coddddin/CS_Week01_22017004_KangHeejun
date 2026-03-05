@@ -33,7 +33,8 @@ namespace MyBusinessCard
         private void button3_Click(object sender, EventArgs e)
         {
             // 실행 폴더의 2.png를 로드하여 PictureBox 이미지로 설정
-            pictureBox1.Image = System.Drawing.Image.FromFile("2.png");
+            pictureBox1.Image = Properties.Resources.Zoom;
+           
         }
 
         private void pictureBox1_MouseEnter(object sender, EventArgs e)
